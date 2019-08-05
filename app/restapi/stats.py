@@ -1,12 +1,4 @@
 # -*- encoding: utf-8 -*-
-"""
-Argon Dashboard - coded in Flask
-
-Author  : AppSeed App Generator
-Design  : Creative-Tim.com
-License : MIT 
-Support : https://appseed.us/support 
-"""
 
 from flask_restful import Resource
 from flask_login   import current_user
