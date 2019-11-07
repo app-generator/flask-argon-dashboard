@@ -1,0 +1,75 @@
+<!--
+
+=========================================================
+* Argon Dashboard - v1.1.0
+=========================================================
+
+* Product Page: https://www.creative-tim.com/product/argon-dashboard
+* Copyright 2019 Creative Tim (https://www.creative-tim.com)
+* Licensed under MIT (https://github.com/creativetimofficial/argon-dashboard/blob/master/LICENSE.md)
+
+* Coded by Creative Tim
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  {% block head %}
+
+    {% block meta %}
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    {% endblock meta %}
+
+  <title>
+    Flask Dashboard Argon - {% block title %}{% endblock %} | AppSeed
+  </title>
+
+  {% block stylesheets %}
+    <!-- Favicon -->
+    <link href="{{ url_for('static', filename='assets/img/brand/favicon.png') }}" rel="icon" type="image/png">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <!-- Icons -->
+    <link href="{{ url_for('static', filename='assets/js/plugins/nucleo/css/nucleo.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='assets/js/plugins/@fortawesome/fontawesome-free/css/all.min.css') }}" rel="stylesheet">
+    <!-- CSS Files -->
+    <link href="{{ url_for('static', filename='assets/css/argon-dashboard.css') }}" rel="stylesheet">
+  {% endblock stylesheets %}
+
+  {% endblock head %}
+</head>
+
+<body class="bg-default">
+
+  <div class="main-content">
+
+    {% include 'site_template/navigation-auth.html' %}
+
+    {% include 'site_template/header-auth.html' %}
+
+    {% block content %}{% endblock %}
+
+    {% include 'site_template/footer-auth.html' %}
+
+  </div>
+
+  {% block javascripts %}
+    <!-- Core -->
+    <script src="{{ url_for('static', filename='assets/js/plugins/jquery/dist/jquery.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/js/plugins/bootstrap/dist/js/bootstrap.bundle.min.js') }}"></script>
+
+    <!-- Optional JS -->
+    <script src="{{ url_for('static', filename='assets/js/plugins/chart.js/dist/Chart.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/js/plugins/chart.js/dist/Chart.extension.js') }}"></script>
+    
+    <!-- Argon JS -->
+    <script src="{{ url_for('static', filename='assets/js/argon-dashboard.min.js') }}"></script>
+  {% endblock javascripts %}
+
+</body>
+
+</html>
