@@ -29,6 +29,10 @@ $ virtualenv --no-site-packages env
 $ source env/bin/activate
 $ 
 $ # 2. Install requirements
+$ # SQLIte version (no PostgreSQL)
+$ pip install -r requirements-no-postgres.txt
+$ 
+$ # OR with PostgreSQL connector
 $ pip install -r requirements.txt
 $
 $ # 3. Set the FLASK_APP environment variable
