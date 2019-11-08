@@ -23,6 +23,10 @@ Simple Flask Boilerplate code suitable for admin dashboards projects - [Flask Da
 $ # 1. Get the code
 $ git clone https://github.com/app-generator/flask-boilerplate-dashboard-argon.git
 $ cd flask-boilerplate-dashboard-argon
+$
+$ # install modules using a virtualenv
+$ virtualenv --no-site-packages env
+$ source env/bin/activate
 $ 
 $ # 2. Install requirements
 $ pip install -r requirements.txt
