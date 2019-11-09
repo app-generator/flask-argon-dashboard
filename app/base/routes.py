@@ -5,7 +5,7 @@ Author: AppSeed.us - App Generator
 License: MIT
 """
 
-from bcrypt import checkpw
+from passlib.hash import bcrypt
 from flask import jsonify, render_template, redirect, request, url_for
 from flask_login import (
     current_user,
@@ -37,7 +37,7 @@ def login():
         password = request.form['password']
 
         user = User.query.filter_by(username=username).first()
-        if user and checkpw(password.encode('utf8'), user.password):
+        if user and bcrypt.verify( password.encode('utf8'), user.password):
             login_user(user)
             return redirect(url_for('base_blueprint.route_default'))
 
@@ -53,9 +53,11 @@ def create_user():
     login_form = LoginForm(request.form)
     create_account_form = CreateAccountForm(request.form)
     if 'register' in request.form:
-        username = request.form['username']
-        email    = request.form['email'   ]
-        password = request.form['password']
+
+        username  = request.form['username']
+        email     = request.form['email'   ]
+        pass_utf8 = request.form['password'].encode('utf8')
+        password  = bcrypt.hash( pass_utf8 ) # hash 
 
         user = User.query.filter_by(username=username).first()
         if user:

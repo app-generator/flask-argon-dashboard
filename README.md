@@ -30,7 +30,7 @@ $ source env/bin/activate
 $ 
 $ # 2. Install requirements
 $ # SQLIte version (no PostgreSQL)
-$ pip install -r requirements-no-postgres.txt
+$ pip install -r requirements-sqlite.txt
 $ 
 $ # OR with PostgreSQL connector
 $ pip install -r requirements.txt

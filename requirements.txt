@@ -1,4 +1,4 @@
-bcrypt
+passlib
 flask
 flask_login
 flask_migrate
