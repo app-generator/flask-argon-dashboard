@@ -56,8 +56,6 @@ def create_user():
 
         username  = request.form['username']
         email     = request.form['email'   ]
-        pass_utf8 = request.form['password'].encode('utf8')
-        password  = bcrypt.hash( pass_utf8 ) # hash 
 
         user = User.query.filter_by(username=username).first()
         if user:

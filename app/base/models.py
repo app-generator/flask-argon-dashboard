@@ -7,6 +7,7 @@ License: MIT
 
 from flask_login import UserMixin
 from sqlalchemy import Binary, Column, Integer, String
+from passlib.hash import bcrypt
 
 from app import db, login_manager
 
@@ -28,7 +29,8 @@ class User(db.Model, UserMixin):
                 # the ,= unpack of a singleton fails PEP8 (travis flake8 test)
                 value = value[0]
             if property == 'password':
-                value = value.encode('utf8') # we need binary, not string
+                value = bcrypt.hash( value ).encode('utf8') # we need binary, not string
+                
             setattr(self, property, value)
 
     def __repr__(self):
