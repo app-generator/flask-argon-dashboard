@@ -84,4 +84,4 @@ $ # 5. Go to http://127.0.0.1:5000/, create an account and log in
 <br />
 
 ---
-[Flask Dashboard Argon](https://appseed.us/admin-dashboards/flask-boilerplate-dashboard-argon) Dashboard - provided by **AppSeed**
+[Flask Dashboard Argon](https://appseed.us/admin-dashboards/flask-boilerplate-dashboard-argon) - provided by **AppSeed**
