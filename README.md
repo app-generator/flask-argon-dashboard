@@ -37,9 +37,9 @@ $ # OR with PostgreSQL connector
 $ pip install -r requirements.txt
 $
 $ # 3. Set the FLASK_APP environment variable
-$ (Unix/Mac) export FLASK_APP=appseed-app.py
-$ (Windows) set FLASK_APP=appseed-app.py
-$ (Powershell) $env:FLASK_APP = ".\appseed-app.py"
+$ (Unix/Mac) export FLASK_APP=app.py
+$ (Windows) set FLASK_APP=app.py
+$ (Powershell) $env:FLASK_APP = ".\app.py"
 $
 $ # 4. Run the application
 $ flask run --host=0.0.0.0
