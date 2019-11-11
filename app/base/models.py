@@ -27,8 +27,8 @@ class User(db.Model, UserMixin):
             if hasattr(value, '__iter__') and not isinstance(value, str):
                 # the ,= unpack of a singleton fails PEP8 (travis flake8 test)
                 value = value[0]
-            #if property == 'password':
-            #    value = hashpw(value.encode('utf8'), gensalt())
+            if property == 'password':
+                value = value.encode('utf8') # we need binary, not string
             setattr(self, property, value)
 
     def __repr__(self):
