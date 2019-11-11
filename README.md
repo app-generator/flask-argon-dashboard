@@ -1,19 +1,20 @@
-# [Flask Dashboard Argon](https://appseed.us/admin-dashboards/flask-boilerplate-dashboard-argon)
+# [Flask Boilerplate Dashboard Argon](https://appseed.us/admin-dashboards/flask-boilerplate-dashboard-argon)
 
-Simple Flask Boilerplate code suitable for admin dashboards projects - [Flask Dashboard Argon - Video](https://www.youtube.com/watch?v=bnCuQzDE3Ks) presentation.
+**[Open-Source Admin Dashboards](https://appseed.us/admin-dashboards/flask-boilerplate-dashboard-argon)** coded in **Flask Web Framework** on top of **Argon Dashboard** design, crafted by Creative-Tim agency. **Dashboard** features:
+
+- SQLite, PostgreSQL
+- SQLAlchemy ORM
+- Alembic
+- Modular design with **Blueprints**
+- Session-Based authentication (via **flask_login**)
+- Forms validation
+- Unitary tests
+- Deployment scripts: Docker, Gunicorn
+- **License MIT**
 
 <br />
 
 ![Flask Dashboard Argon - Open-Source Flask Boilerplate.](https://raw.githubusercontent.com/app-generator/static/master/products/flask-boilerplate-dashboard-argon-intro.gif)
-
-<br />
-
-## Features
-
-- SQLite Database
-- Modular design with Blueprints
-- Session Based authentication (via flask_login) - bcrypt hashed passwords
-- Forms validation
 
 <br />
 
@@ -64,10 +65,15 @@ $ # 5. Go to http://127.0.0.1:5000/, create an account and log in
 
 <br />
 
-## Credits
+## Credits & Links
 
 - [Argon Dashboard UI](https://www.creative-tim.com/product/argon-dashboard) - crafted by Creative-Tim agency
 - [Flask Gentelella](https://github.com/afourmy/flask-gentelella) - author **Antoine Fourmy**
+- [Flask Boilerplate Dashboard Argon](https://appseed.us/admin-dashboards/flask-boilerplate-dashboard-argon) - Product page
+- [Flask Boilerplate Dashboard Argon](https://www.youtube.com/watch?v=bnCuQzDE3Ks/) - Video presentation (Youtube)
+- [Flask Framework](https://www.palletsprojects.com/p/flask/) - Offcial website
+- [Flask Dashboard - Open-Source Boilerplates](https://dev.to/sm0ke/flask-dashboard-open-source-boilerplates-dkg) - A popular article published on Dev.to platform
+- [Flask Dashboard](https://admin-dashboards.com/tags/flask-dashboard) - Index provided by **Admin-Dashboards.com**
 
 <br />
 
