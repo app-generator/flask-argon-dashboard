@@ -35,9 +35,13 @@ def configure_database(app):
         db.session.remove()
 
 def configure_logs(app):
-    basicConfig(filename='error.log', level=DEBUG)
-    logger = getLogger()
-    logger.addHandler(StreamHandler())
+    # soft logging
+    try:
+        basicConfig(filename='error.log', level=DEBUG)
+        logger = getLogger()
+        logger.addHandler(StreamHandler())
+    except:
+        pass
 
 def apply_themes(app):
     """
