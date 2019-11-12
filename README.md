@@ -25,9 +25,13 @@ $ # 1. Get the code
 $ git clone https://github.com/app-generator/flask-boilerplate-dashboard-argon.git
 $ cd flask-boilerplate-dashboard-argon
 $
-$ # install modules using a virtualenv
+$ # install modules using a virtualenv (Unix based systems)
 $ virtualenv --no-site-packages env
 $ source env/bin/activate
+$
+$ # Using virtualenv on Windows based systems
+$ # virtualenv --no-site-packages env
+$ # \env\Scripts\activate.bat
 $ 
 $ # 2. Install requirements
 $ # SQLIte version (no PostgreSQL)

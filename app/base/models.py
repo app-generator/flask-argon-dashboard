@@ -7,9 +7,10 @@ License: MIT
 
 from flask_login import UserMixin
 from sqlalchemy import Binary, Column, Integer, String
-from passlib.hash import bcrypt
 
 from app import db, login_manager
+
+from app.base.util import hash_pass
 
 class User(db.Model, UserMixin):
 
@@ -28,8 +29,9 @@ class User(db.Model, UserMixin):
             if hasattr(value, '__iter__') and not isinstance(value, str):
                 # the ,= unpack of a singleton fails PEP8 (travis flake8 test)
                 value = value[0]
+
             if property == 'password':
-                value = bcrypt.hash( value ).encode('utf8') # we need binary, not string
+                value = hash_pass( value ) # we need bytes here (not plain str)
                 
             setattr(self, property, value)
 

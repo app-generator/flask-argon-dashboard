@@ -5,7 +5,6 @@ Author: AppSeed.us - App Generator
 License: MIT
 """
 
-from passlib.hash import bcrypt
 from flask import jsonify, render_template, redirect, request, url_for
 from flask_login import (
     current_user,
@@ -18,6 +17,8 @@ from app import db, login_manager
 from app.base import blueprint
 from app.base.forms import LoginForm, CreateAccountForm
 from app.base.models import User
+
+from app.base.util import verify_pass
 
 @blueprint.route('/')
 def route_default():
@@ -33,14 +34,21 @@ def route_errors(error):
 def login():
     login_form = LoginForm(request.form)
     if 'login' in request.form:
+        
+        # read form data
         username = request.form['username']
         password = request.form['password']
 
+        # Locate user
         user = User.query.filter_by(username=username).first()
-        if user and bcrypt.verify( password.encode('utf8'), user.password):
+        
+        # Check the password
+        if user and verify_pass( password, user.password):
+
             login_user(user)
             return redirect(url_for('base_blueprint.route_default'))
 
+        # Something (user or pass) is not ok
         return render_template( 'login/login.html', msg='Wrong user or password', form=login_form)
 
     if not current_user.is_authenticated:
