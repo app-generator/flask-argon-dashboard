@@ -1,8 +1,8 @@
 FROM python:3.6
 
-ENV FLASK_APP appseed-app.py
+ENV FLASK_APP run.py
 
-COPY appseed-app.py gunicorn.py requirements.txt config.py .env ./
+COPY run.py gunicorn.py requirements.txt config.py .env ./
 COPY app app
 COPY migrations migrations
 
