@@ -53,6 +53,27 @@ $ # 5. Go to http://127.0.0.1:5000/, create an account and log in
 
 <br />
 
+## Docker execution
+
+The application can be easily excuted in a docker container. The steps:
+
+> Get the code
+
+```bash
+$ git clone https://github.com/app-generator/flask-boilerplate-dashboard-argon.git
+$ cd flask-boilerplate-dashboard-argon
+```
+
+> Start the app in Docker
+
+```bash
+$ sudo docker-compose pull && sudo docker-compose build && sudo docker-compose up -d
+```
+
+Visit `http://localhost:5000` in your browser. The app should be up & running. 
+
+<br />
+
 ## Want more? Go PRO!
 
 <br />

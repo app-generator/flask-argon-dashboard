@@ -1,13 +1,5 @@
 version: '3'
 services:
-  db:
-    restart: always
-    image: postgres:10
-    env_file: .env
-    expose:
-      - 5432
-    networks:
-      - db_network
   appseed-app:
     restart: always
     env_file: .env
@@ -17,8 +9,6 @@ services:
     networks:
       - db_network
       - web_network
-    depends_on:
-      - db
   nginx:
     restart: always
     image: "nginx:latest"
