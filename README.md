@@ -25,13 +25,13 @@ $ # 1. Get the code
 $ git clone https://github.com/app-generator/flask-boilerplate-dashboard-argon.git
 $ cd flask-boilerplate-dashboard-argon
 $
-$ # install modules using a virtualenv (Unix based systems)
+$ # Virtualenv modules installation (Unix based systems)
 $ virtualenv --no-site-packages env
 $ source env/bin/activate
 $
-$ # Using virtualenv on Windows based systems
+$ # Virtualenv modules installation (Windows based systems)
 $ # virtualenv --no-site-packages env
-$ # \env\Scripts\activate.bat
+$ # .\env\Scripts\activate.bat
 $ 
 $ # 2. Install requirements
 $ # SQLIte version (no PostgreSQL)
@@ -46,7 +46,9 @@ $ (Windows) set FLASK_APP=run.py
 $ (Powershell) $env:FLASK_APP = ".\run.py"
 $
 $ # 4. Run the application
-$ flask run --host=0.0.0.0
+$ # --host=0.0.0.0 - expose the app on all network interfaces (default 127.0.0.1)
+$ # --port=5000    - specify the app port (default 5000)  
+$ flask run --host=0.0.0.0 --port=5000
 $
 $ # 5. Go to http://127.0.0.1:5000/, create an account and log in
 ```
