@@ -1,8 +1,7 @@
 # -*- encoding: utf-8 -*-
 """
-Flask Boilerplate Dashboard
-Author: AppSeed.us - App Generator 
 License: MIT
+Copyright (c) 2019 - present AppSeed.us
 """
 
 from flask import Flask, url_for
