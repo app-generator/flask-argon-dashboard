@@ -35,7 +35,7 @@ $ # .\env\Scripts\activate.bat
 $ 
 $ # 2. Install requirements
 $ # SQLIte version (no PostgreSQL)
-$ pip install -r requirements-sqlite.txt
+$ pip3 install -r requirements-sqlite.txt
 $ 
 $ # OR with PostgreSQL connector
 $ pip install -r requirements.txt
