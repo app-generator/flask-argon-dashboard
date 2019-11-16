@@ -50,7 +50,7 @@ $ # --host=0.0.0.0 - expose the app on all network interfaces (default 127.0.0.1
 $ # --port=5000    - specify the app port (default 5000)  
 $ flask run --host=0.0.0.0 --port=5000
 $
-$ # 5. Go to http://127.0.0.1:5000/, create an account and log in
+$ # 5. Access the app in browser: http://127.0.0.1:5000/
 ```
 
 <br />

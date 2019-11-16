@@ -17,7 +17,8 @@
     "url": "https://github.com/app-generator/flask-boilerplate-dashboard-argon"
   },
   "keywords": [
-    "node"
+    "flask",
+    "admin-dashboard"
   ],
   "author": "AppSeed.us",
   "contributors": [
