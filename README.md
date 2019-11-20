@@ -2,15 +2,13 @@
 
 **[Open-Source Admin Dashboard](https://appseed.us/admin-dashboards/flask-boilerplate-dashboard-argon)** coded in **Flask Web Framework** on top of **Argon Dashboard** design, crafted by Creative-Tim agency. **Dashboard** features:
 
-- SQLite, PostgreSQL
-- SQLAlchemy ORM
-- Alembic
+- SQLite, PostgreSQL, SQLAlchemy ORM
+- Alembic (for DB schema migrations)
 - Modular design with **Blueprints**
 - Session-Based authentication (via **flask_login**)
 - Forms validation
-- Unitary tests
 - Deployment scripts: Docker, Gunicorn
-- **License MIT**
+- UI Kit: [Argon Dashboard](https://github.com/app-generator/fork-argon-dashboard-html) by **Creative-Tim**
 
 <br />
 
