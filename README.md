@@ -29,7 +29,7 @@ $ source env/bin/activate
 $
 $ # Virtualenv modules installation (Windows based systems)
 $ # virtualenv --no-site-packages env
-$ # .\env\Scripts\activate.bat
+$ # .\env\Scripts\activate
 $ 
 $ # Install modules
 $ # SQLIte version (no PostgreSQL)
