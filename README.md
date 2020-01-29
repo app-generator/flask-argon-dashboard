@@ -1,6 +1,8 @@
 # [Flask Boilerplate Dashboard Argon](https://appseed.us/admin-dashboards/flask-boilerplate-dashboard-argon)
 
-**[Open-Source Admin Dashboard](https://appseed.us/admin-dashboards/flask-boilerplate-dashboard-argon)** coded in **Flask Web Framework** on top of **Argon Dashboard** design, crafted by Creative-Tim agency. **Dashboard** features:
+**Open-Source Admin Dashboard** coded in **[Flask Framework](https://palletsprojects.com/p/flask/)** - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
+
+### Dashboard Features:
 
 - SQLite, PostgreSQL, SQLAlchemy ORM
 - Alembic (for DB schema migrations)
@@ -118,4 +120,4 @@ Visit `http://localhost:5000` in your browser. The app should be up & running.
 <br />
 
 ---
-[Flask Dashboard Argon](https://appseed.us/admin-dashboards/flask-boilerplate-dashboard-argon) - provided by **AppSeed**
+[Flask Dashboard Argon](https://appseed.us/admin-dashboards/flask-boilerplate-dashboard-argon) - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
