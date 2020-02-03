@@ -14,6 +14,25 @@
 
 <br />
 
+## Product technology stack
+---
+
+- Used Language: [Python3](https://www.python.org/) (Python2 is not supported)
+- Web Framework: [Flask](https://www.palletsprojects.com/p/flask/)
+- CSS Framework: [Bootstrap CSS](https://getbootstrap.com/)
+- Javascript: [jQuery](https://jquery.com/)
+
+<br />
+
+## Product Links
+---
+
+- [Flask Dashboard Argon](https://appseed.us/admin-dashboards/flask-boilerplate-dashboard-argon) - the product page
+- [Flask Dashboard Argon](https://github.com/app-generator/flask-boilerplate-dashboard-argon) - the source code
+- [Flask Dashboard Argon](https://www.youtube.com/watch?v=bnCuQzDE3Ks) - yTube presentation
+
+<br />
+
 ## Want more? Go PRO!
 
 PRO versions include **Premium UI Kits**, Lifetime updates and **24/7 LIVE Support** (via [Discord](https://discord.gg/fZC6hup))
