@@ -15,7 +15,6 @@
 <br />
 
 ## Product technology stack
----
 
 - Used Language: [Python3](https://www.python.org/) (Python2 is not supported)
 - Web Framework: [Flask](https://www.palletsprojects.com/p/flask/)
@@ -25,10 +24,9 @@
 <br />
 
 ## Product Links
----
 
 - [Flask Dashboard Argon](https://appseed.us/admin-dashboards/flask-boilerplate-dashboard-argon) - the product page
-- [Flask Dashboard Argon](https://github.com/app-generator/flask-boilerplate-dashboard-argon) - the source code
+- [Flask Dashboard Argon](https://docs.appseed.us/admin-dashboards/flask-dashboard-argon/) - documentation
 - [Flask Dashboard Argon](https://www.youtube.com/watch?v=bnCuQzDE3Ks) - yTube presentation
 
 <br />
