@@ -23,14 +23,6 @@
 
 <br />
 
-## Product Links
-
-- [Flask Dashboard Argon](https://appseed.us/admin-dashboards/flask-boilerplate-dashboard-argon) - the product page
-- [Flask Dashboard Argon](https://docs.appseed.us/admin-dashboards/flask-dashboard-argon/) - documentation
-- [Flask Dashboard Argon](https://www.youtube.com/watch?v=bnCuQzDE3Ks) - yTube presentation
-
-<br />
-
 ## Want more? Go PRO!
 
 PRO versions include **Premium UI Kits**, Lifetime updates and **24/7 LIVE Support** (via [Discord](https://discord.gg/fZC6hup))
