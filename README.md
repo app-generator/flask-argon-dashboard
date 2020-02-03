@@ -10,7 +10,7 @@
 - Session-Based authentication (via **flask_login**)
 - Forms validation
 - Deployment scripts: Docker, Gunicorn
-- UI Kit: [Argon Dashboard](https://github.com/app-generator/fork-argon-dashboard-html) by **Creative-Tim**
+- UI Kit: [Argon Dashboard](https://github.com/app-generator/fork-argon-dashboard-html) (Free Version) by **Creative-Tim**
 
 <br />
 
