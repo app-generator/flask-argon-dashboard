@@ -8,7 +8,13 @@ from os import environ
 
 class Config(object):
     SECRET_KEY = 'key'
-    SQLALCHEMY_DATABASE_URI = 'sqlite:///:memory:'
+
+    # This will create a file in <app> FOLDER
+    SQLALCHEMY_DATABASE_URI = 'sqlite:///' + os.path.join(basedir, 'database.db')
+
+    # For 'in memory' database, please use:
+    # SQLALCHEMY_DATABASE_URI = 'sqlite:///:memory:'
+    #     
     SQLALCHEMY_TRACK_MODIFICATIONS = False
 
     # THEME SUPPORT
