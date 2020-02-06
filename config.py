@@ -4,10 +4,14 @@ License: MIT
 Copyright (c) 2019 - present AppSeed.us
 """
 
-from os import environ
+import os
+from   os import environ
 
 class Config(object):
-    SECRET_KEY = 'key'
+
+    basedir    = os.path.abspath(os.path.dirname(__file__))
+
+    SECRET_KEY = 'S3cretKey_7655'
 
     # This will create a file in <app> FOLDER
     SQLALCHEMY_DATABASE_URI = 'sqlite:///' + os.path.join(basedir, 'database.db')
