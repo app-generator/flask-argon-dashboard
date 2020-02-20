@@ -1,16 +1,17 @@
-# [Flask Boilerplate Dashboard Argon](https://appseed.us/admin-dashboards/flask-boilerplate-dashboard-argon)
+# [Flask Dashboard Argon](https://appseed.us/admin-dashboards/flask-boilerplate-dashboard-argon)
 
 **Open-Source Admin Dashboard** coded in **[Flask Framework](https://palletsprojects.com/p/flask/)** - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
 
 ### Dashboard Features:
 
 - SQLite, PostgreSQL, SQLAlchemy ORM
-- Alembic (for DB schema migrations)
+- Alembic (DB schema migrations)
 - Modular design with **Blueprints**
 - Session-Based authentication (via **flask_login**)
 - Forms validation
-- Deployment scripts: Docker, Gunicorn
-- UI Kit: [Argon Dashboard](https://github.com/app-generator/fork-argon-dashboard-html) (Free Version) by **Creative-Tim**
+- Deployment scripts: Docker, Gunicorn / Nginx
+- UI Kit: **[Argon Dashboard](https://flask-dashboard-argon.appseed.us/login)** (Free version) provided by **Creative-Tim**
+- **MIT License**
 
 <br />
 
@@ -20,6 +21,15 @@
 - Web Framework: [Flask](https://www.palletsprojects.com/p/flask/)
 - CSS Framework: [Bootstrap CSS](https://getbootstrap.com/)
 - Javascript: [jQuery](https://jquery.com/)
+
+<br />
+
+## Dashboard Links
+
+- [Flask Dashboard Argon](https://appseed.us/admin-dashboards/flask-boilerplate-dashboard-argon) - Product page
+- [Flask Dashboard Argon](https://github.com/app-generator/flask-boilerplate-dashboard-argon) - Source code (published on Github)
+- [Flask Dashboard Argon](https://flask-dashboard-argon.appseed.us/login) - LIVE demo
+- [Flask Dashboard Argon](https://www.youtube.com/watch?v=bnCuQzDE3Ks) - yTube presentation
 
 <br />
 
@@ -168,12 +178,6 @@ Visit `http://localhost:8001` in your browser. The app should be up & running.
 - [Flask Framework](https://www.palletsprojects.com/p/flask/) - Offcial website
 - [Flask Dashboard - Open-Source Boilerplates](https://dev.to/sm0ke/flask-dashboard-open-source-boilerplates-dkg) - A popular article published on Dev.to platform
 - [Flask Dashboard](https://admin-dashboards.com/tags/flask-dashboard) - Index provided by **Admin-Dashboards.com**
-
-<br />
-
-## License
-
-@MIT
 
 <br />
 
