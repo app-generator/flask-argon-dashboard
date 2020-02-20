@@ -14,6 +14,8 @@
 - **MIT License**
 - Support: Free support via **Github** and (Paid) **24/7 LIVE Support** via [Discord](https://discord.gg/fZC6hup)
 
+<br />
+
 ## Product technology stack
 
 - Used Language: [Python3](https://www.python.org/) (Python2 is not supported)
