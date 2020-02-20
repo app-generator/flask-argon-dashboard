@@ -1,8 +1,8 @@
 # [Flask Dashboard Argon](https://appseed.us/admin-dashboards/flask-boilerplate-dashboard-argon)
 
-**Open-Source Admin Dashboard** coded in **[Flask Framework](https://palletsprojects.com/p/flask/)** - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
+**Open-Source Admin Dashboard** coded in **[Flask Framework](https://palletsprojects.com/p/flask/)** on top of **Argon Dashboard** design (free version) - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
 
-### Dashboard Features:
+## Dashboard Features:
 
 - SQLite, PostgreSQL, SQLAlchemy ORM
 - Alembic (DB schema migrations)
@@ -12,6 +12,13 @@
 - Deployment scripts: Docker, Gunicorn / Nginx
 - UI Kit: **[Argon Dashboard](https://flask-dashboard-argon.appseed.us/login)** (Free version) provided by **Creative-Tim**
 - **MIT License**
+
+<br />
+
+**Support**
+
+- Free support via eMail < [support @ appseed.us](https://appseed.us/support) > and **Github** issues tracker
+- 24/7 Live Support via [Discord](https://discord.gg/fZC6hup) for paid plans and commercial products.
 
 <br />
 
@@ -159,13 +166,6 @@ Serving on http://localhost:8001
 ```
 
 Visit `http://localhost:8001` in your browser. The app should be up & running.
-
-<br />
-
-## Support
-
-- Free support via eMail < [support @ appseed.us](https://appseed.us/support) > and **Github** issues tracker
-- 24/7 Live Support via [Discord](https://discord.gg/fZC6hup) for paid plans and commercial products.
 
 <br />
 ## Credits & Links
