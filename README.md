@@ -1,4 +1,4 @@
-# [Flask Dashboard Argon](https://appseed.us/admin-dashboards/flask-boilerplate-dashboard-argon)
+# [Flask Dashboard - Argon Design](https://appseed.us/admin-dashboards/flask-boilerplate-dashboard-argon)
 
 > **Open-Source Admin Dashboard** coded in **Flask Framework** by **AppSeed** [Web App Generator](https://appseed.us/app-generator) - Features:
 
@@ -14,11 +14,11 @@
 
 > Links
 
-- [Flask Dashboard Argon](https://appseed.us/admin-dashboards/flask-boilerplate-dashboard-argon) - Product page
-- [Flask Dashboard Argon](https://docs.appseed.us/admin-dashboards/flask-dashboard-argon/) - Documentation
-- [Flask Dashboard Argon](https://flask-dashboard-argon.appseed.us/login) - LIVE demo
-- More [Flask Admin Dashboards](https://appseed.us/admin-dashboards/flask) - index hosted by **AppSeed**
-- [Free Admin Dashboards](https://appseed.us/admin-dashboards/open-source) - index hosted by **AppSeed**
+- [Flask Dashboard - Argon Design](https://appseed.us/admin-dashboards/flask-boilerplate-dashboard-argon) - Product page
+- [Flask Dashboard Argon Docs](https://docs.appseed.us/admin-dashboards/flask-dashboard-argon/) - App Documentation
+- [Flask Dashboard Argon Demo](https://flask-dashboard-argon.appseed.us/login) - LIVE app
+- More [Flask Dashboards](https://appseed.us/admin-dashboards/flask) - index hosted by **AppSeed**
+- More [Admin Dashboards](https://appseed.us/admin-dashboards) - index hosted by **AppSeed**
 
 <br />
 
@@ -172,4 +172,4 @@ A dashboard is a set of pages that are easy to read and offer information to the
 <br />
 
 ---
-**[Flask Dashboard Argon](https://appseed.us/admin-dashboards/flask-boilerplate-dashboard-argon)** - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
+[Flask Dashboard - Argon Design](https://appseed.us/admin-dashboards/flask-boilerplate-dashboard-argon) - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
