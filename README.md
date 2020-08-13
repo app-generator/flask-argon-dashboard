@@ -2,7 +2,7 @@
 
 > **Open-Source Admin Dashboard** coded in **Flask Framework** by **AppSeed** [Web App Generator](https://appseed.us/app-generator) - Features:
 
-- UI Kit: **[Argon Dashboard](https://www.creative-tim.com/product/argon-dashboard?ref=appseed)** (Free version) provided by **Creative-Tim**
+- UI Kit: **[Argon Design](https://appseed.us/ui-kit/argon-design-system)** (Free version) provided by **Creative-Tim**
 - Modular design with **Blueprints**
 - SQLite, PostgreSQL, SQLAlchemy ORM
 - Alembic (DB schema migrations)
@@ -165,9 +165,11 @@ A dashboard is a set of pages that are easy to read and offer information to the
 
 <br />
 
-## [Argon Dashboard](https://www.creative-tim.com/product/argon-dashboard?ref=appseed)
+## [Argon Dashboard](https://www.creative-tim.com/product/argon-dashboard?AFFILIATE=128200)
 
-**[Argon Dashboard](https://www.creative-tim.com/product/argon-dashboard?ref=appseed)** is built with over 100 individual components, giving you the freedom of choosing and combining. All components can take variations in color, that you can easily modify using SASS files and it is open source, and free.
+**[Argon Dashboard](https://www.creative-tim.com/product/argon-dashboard?AFFILIATE=128200)** is built with over 100 individual components, giving you the freedom of choosing and combining. All components can take variations in color, that you can easily modify using SASS files and it is open source, and free.
+You will save a lot of time going from prototyping to full-functional code, because all elements are implemented. This Dashboard is coming with pre-built examples, so the development process is seamless, switching from our pages to the real website is very easy to be done.
+
 
 <br />
 
