@@ -1,8 +1,2 @@
-flask
-flask_login
-flask_migrate
-flask_wtf
-email_validator
-flask_sqlalchemy
-gunicorn
+-r requirements.txt
 psycopg2
