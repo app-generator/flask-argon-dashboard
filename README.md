@@ -12,13 +12,13 @@
 - Deployment scripts: Docker, Gunicorn / Nginx, Heroku
 - Support via **Github** and [Discord](https://discord.gg/fZC6hup).
 
+<br />
+
 > Links
 
-- [Flask Dashboard - Argon Design](https://appseed.us/admin-dashboards/flask-boilerplate-dashboard-argon) - Product page
+- [Flask Dashboard Argon](https://appseed.us/admin-dashboards/flask-boilerplate-dashboard-argon) - Product page
+- [Flask Dashboard Argon Demo](https://flask-dashboard-argon.appseed.us/) - LIVE app
 - [Flask Dashboard Argon Docs](https://docs.appseed.us/admin-dashboards/flask-dashboard-argon/) - App Documentation
-- [Flask Dashboard Argon Demo](https://flask-dashboard-argon.appseed.us/login) - LIVE app
-- More [Flask Admin Dashboards](https://appseed.us/admin-dashboards/flask) - index hosted by **[AppSeed](https://appseed.us)**
-- [Open-Source Admin Dashboards](https://appseed.us/admin-dashboards/open-source) - index hosted by **[AppSeed](https://appseed.us)**
 
 <br />
 
