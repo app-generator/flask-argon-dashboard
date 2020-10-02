@@ -17,7 +17,8 @@ services:
       - "443:443"
     volumes:
       - ./nginx:/etc/nginx/conf.d
-      - ./certs:/etc/letsencrypt/live/your_domain_name  ## Remove this line if you don't have a domain name and ssl certificates generated with you.
+      - ./certs:/etc/letsencrypt/live/your_domain_name  ## Remove this line if you don't have a domain name and ssl certificates generated with you. certs is the folder which contains ssl certificates.
+      
     networks:
       - web_network
     depends_on: 
