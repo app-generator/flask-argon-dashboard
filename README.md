@@ -21,7 +21,7 @@
 
 - [Flask Dashboard Argon](https://appseed.us/admin-dashboards/flask-boilerplate-dashboard-argon) - Product page
 - [Flask Dashboard Argon Demo](https://flask-dashboard-argon.appseed.us/) - LIVE app
-- [Flask Dashboard Argon Docs](https://docs.appseed.us/admin-dashboards/flask-dashboard-argon/) - App Documentation
+- [Flask Tutorial](https://github.com/app-generator/tutorial-flask) - Getting started with Flask
 
 <br />
 
