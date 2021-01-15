@@ -311,4 +311,4 @@ Visit `http://localhost:8001` in your browser. The app should be up & running.
 <br />
 
 ---
-[Flask Black Dashboard](https://appseed.us/admin-dashboards/flask-dashboard-black) - Provided by **AppSeed [App Generator](https://appseed.us/app-generator)**.
+[Flask Dashboard](https://appseed.us/admin-dashboards/flask) Argon - Provided by **AppSeed [App Generator](https://appseed.us/app-generator)**.
