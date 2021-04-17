@@ -17,9 +17,8 @@
 
 > Links
 
-- [Flask Dashboard Argon](https://appseed.us/admin-dashboards/flask-boilerplate-dashboard-argon) - Product page
-- [Flask Dashboard Argon - Demo](https://flask-argon-dashboard.appseed-srv1.com) - LIVE App deployment
-- [Flask Tutorial](https://github.com/app-generator/tutorial-flask) - Getting started with Flask
+- [Flask Dashboard Argon](https://appseed.us/admin-dashboards/flask-boilerplate-dashboard-argon) - product page
+- [Flask Dashboard Argon - Demo](https://flask-argon-dashboard.appseed-srv1.com) - LIVE Deployment
 
 <br />
 
