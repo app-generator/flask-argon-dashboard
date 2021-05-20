@@ -1,6 +1,14 @@
 # [Flask Dashboard Argon](https://appseed.us/admin-dashboards/flask-dashboard-argon)
 
-**Open-Source Admin Dashboard** coded in **[Flask Framework](https://palletsprojects.com/p/flask/)** on top of **Argon Dashboard** design (free version) - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
+**Open-Source Admin Dashboard** coded in **Flask Framework** on top of **Argon Dashboard** design (free version) - Provided by **AppSeed** [App Generator](https://appseed.us/app-generator).
+
+<br />
+
+## Status: Archived
+
+**For enhanced version** (blueprints, deployment scripts) of this dashboard please visit: [Flask Panel Dashboard Argon](https://appseed.us/admin-dashboards/flask-boilerplate-dashboard-argon) - version actively supported and versioned 
+
+<br />
 
 ## Dashboard Features:
 
@@ -10,10 +18,6 @@
 - UI Kit: **[Argon Dashboard](https://flask-dashboard-argon.appseed.us/login)** (Free version) provided by **Creative-Tim**
 - **MIT License**
 - Support: Free support via **Github** and (Paid) **24/7 LIVE Support** via [Discord](https://discord.gg/fZC6hup)
-
-<br />
-
-> Note: **For enhanced version** (blueprints, deployment scripts) of this dashboard please visit: [Flask Panel Dashboard Argon](https://github.com/app-generator/flask-boilerplate-dashboard-argon). Thank you!
 
 <br />
 
