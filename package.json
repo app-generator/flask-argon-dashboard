@@ -1,14 +1,14 @@
 {
-    "name": "flask-boilerplate-dashboard-argon",
+    "name": "flask-argon-dashboard",
     "mastertemplate": "boilerplate-code-flask-dashboard",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "Template project - Flask Boilerplate Code",
     "repository": {
         "type": "git",
-        "url": "https://github.com/app-generator/flask-boilerplate-dashboard-argon"
+        "url": "https://github.com/app-generator/flask-argon-dashboard"
     },
     "bugs": {
-        "url": "https://github.com/app-generator/flask-boilerplate-dashboard-argon/issues",
+        "url": "https://github.com/app-generator/flask-argon-dashboard/issues",
         "email": "support@appseed.us"
     },
     "author": "AppSeed App Generator <support@appseed.us> (https://appseed.us)",
