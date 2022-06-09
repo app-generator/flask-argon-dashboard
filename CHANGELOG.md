@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.0.6] 2022-06-09
+### Improvements
+
+- Built with [Argon Dashboard Generator](https://appseed.us/generator/argon-dashboard/)
+  - Timestamp: `2022-06-09 17:30`
+
 ## [1.0.5] 2022-01-16
 ### Improvements
 
