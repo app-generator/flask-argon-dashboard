@@ -5,7 +5,7 @@
 {% block content %}
 
 <div class="header pb-6 d-flex align-items-center" 
-     style="min-height: 500px; background-image: url(/static/assets/img/theme/profile-cover.jpg); background-size: cover; background-position: center top;">
+     style="min-height: 500px; background-image: url({{ config.ASSETS_ROOT }}/img/theme/profile-cover.jpg); background-size: cover; background-position: center top;">
   <!-- Mask -->
   <span class="mask bg-gradient-default opacity-8"></span>
   <!-- Header container -->
@@ -26,12 +26,12 @@
   <div class="row">
     <div class="col-xl-4 order-xl-2">
       <div class="card card-profile">
-        <img src="/static/assets/img/theme/img-1-1000x600.jpg" alt="Image placeholder" class="card-img-top">
+        <img src="{{ config.ASSETS_ROOT }}/img/theme/img-1-1000x600.jpg" alt="Image placeholder" class="card-img-top">
         <div class="row justify-content-center">
           <div class="col-lg-3 order-lg-2">
             <div class="card-profile-image">
               <a href="#">
-                <img src="/static/assets/img/theme/team-4.jpg" class="rounded-circle">
+                <img src="{{ config.ASSETS_ROOT }}/img/theme/team-4.jpg" class="rounded-circle">
               </a>
             </div>
           </div>
