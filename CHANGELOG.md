@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.0.7] 2022-08-09
+### Improvements
+
+- Bump UI Version
+  - [Argon Dashboard](https://www.creative-tim.com/product/argon-dashboard?AFFILIATE=128200) v2.0.4
+
 ## [1.0.6] 2022-06-09
 ### Improvements
 
