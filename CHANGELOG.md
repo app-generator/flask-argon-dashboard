@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.0.9] 2023-04-02
+### Changes
+
+- Added Gulp Tooling
+  - For SCSS to CSS translation 
+
 ## [1.0.8] 2023-02-02
 ### Changes
 
