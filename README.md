@@ -188,6 +188,19 @@ The project is coded using blueprints, app factory pattern, dual configuration p
 
 <br />
 
+## Recompile SCSS 
+
+To update the CSS, the recommended way is this:
+
+- use a Node 16.x version 
+- navigate to `apps/static/assets`
+- Install modules using `yarn` or `npm i`
+- Edit SCSS files
+- Recompile SCSS -> CSS via `gulp scss` 
+- Refresh the browser 
+
+<br />
+
 ## PRO Version
 
 > For more components, pages and priority on support, feel free to take a look at this amazing starter:
