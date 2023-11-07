@@ -10,7 +10,7 @@ Open-source **[Flask Dashboard](https://appseed.us/admin-dashboards/flask/)** ge
   
 <br />
 
-## 🚀 **[Black Friday Campaign](https://appseed.us/)** is LIVE: `70%Off`
+## 🚀 **[Black Friday Campaign](https://appseed.us/)** is LIVE: `65%Off`
 
 > `React`, `Django`, `Flask`, and `NodeJs` starters crafted and actively supported by **AppSeed**
  
