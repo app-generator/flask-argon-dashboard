@@ -8,7 +8,7 @@ Open-source **[Flask Dashboard](https://appseed.us/admin-dashboards/flask/)** ge
 - 👉 [Flask Argon Dashboard](https://flask-argon-dashboard.appseed-srv1.com/) - LIVE deployment
 - 👉 [Complete documentation](https://docs.appseed.us/products/flask-dashboards/argon-dashboard) - `Learn how to use and update the product`
   
-<br />
+---
 
 ## 🚀 **[Black Friday Campaign](https://appseed.us/)** is LIVE: `65%Off`
 
