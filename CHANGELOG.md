@@ -1,5 +1,13 @@
 # Change Log
 
+## [1.0.13] 2025-03-11
+### Changes
+
+- Update Product Links to [App-Generator](https://app-generator.dev/) Service   
+- 👉 [Flask Argon Dashboard](https://app-generator.dev/product/argon-dashboard/flask/) - `Product Page`
+- 👉 [Flask Argon Dashboard](https://flask-argon.onrender.com/) - `LIVE Demo` 
+- 👉 [Flask Argon Dashboard](https://app-generator.dev/docs/products/flask/argon-dashboard/index.html) - `Complete Information` and Support Links
+
 ## [1.0.12] 2024-05-18
 ### Changes
 
